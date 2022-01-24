@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn
+{
+  
+    background-color: white;
+    color: rgb(88, 189, 219);
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(88, 189, 219);
+    border-radius: 5px;
+    font-weight:600;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(88, 189, 219);
+    color: white;
+    width:300px ;
+    cursor:pointer;
+
+}
